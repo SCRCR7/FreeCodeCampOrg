@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz in Html</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        img{
+            width: max(250px ,25vw);
+            
+        }
+        #logo{
+            background-color: #0a0a23;
+            width: max(100px,10vw);
+            aspect-ratio: 30/10;
+            padding:0.4rem;
+        }
+        header{
+            background-color:#1b1b32;
+            width: 100%;
+            height: 50px;
+            display: flex;
+
+        }
+        h1{
+            /* background-color: red; */
+            font-size: min(5vw,1.2em);
+            margin: 10px 5px;
+            padding: 5px;
+            color:white;
+        }
+        nav >ul{
+            display: flex;
+           
+            justify-content: flex-end;
+        
+        }
+        li{
+            list-style: none;
+            text-decoration: none;
+            margin: 16px 10px;
+            justify-content: flex-end;
+        }
+        li a{
+            color:red;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <!-- context add here -->
+      <img src="logo.png" id="logo"/>
+      <h1>HTML/CSS QUIZZ</h1>
+      <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    margin: 0;
+}
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+   position: relative;
+   overflow: hidden;
+   display: flex;
+}
+
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-top: 8px;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+ul{
+    /* background-color: red; */
+    display: flex;
+  align-items: center;  
+  margin-left: 300px;
+  margin-top: 20px;
+}
+li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+
+    
+   
+}
+li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    
+}
+li a:hover{
+    background-color: green;
+    color: white;
+
+}
+.menu{
+    /* background-color: red; */
+    box-sizing: border-box;
+    float: right;
+    overflow: hidden;
+   position: absolute;
+ right: 10px;
+ top: 17px; 
+
+}
+
+.menu img{
+    width: 30px;
+    /* background-color: red; */
+    margin: 25px 10px;
+    cursor: pointer;
+    align-items: center;
+    
+
+}
+/* design side bar  */
+.sidebar{
+    width: 240px;
+    background-color:#ddd;
+    padding: 10px;
+    float: left;
+    height: 500px;
+}
+/* flex 1 will take the remiang space  */
+.main-section{
+    flex: 1;
+    padding: 20px;
+    /* background-color: purple;  */
+    overflow: hidden;
+    
+    
+}
+h2 ,h1{
+    margin-top: 0;
+    
+}
+/* card grid container for all car  */
+.class-grid{
+    /* background-color:black; */
+    display: grid;
+    /* 3 card per row  3 card 1fr or row */
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+
+    
+}
+.card{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 200px; 
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

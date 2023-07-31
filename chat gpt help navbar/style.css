@@ -1,0 +1,126 @@
+/* Reset some default styles for consistency */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header and navbar */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    /* background-color: red; */
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    width: 100px; /* Set the width of the logo image */
+    height: auto; 
+    /* Automatically adjust the height to maintain aspect ratio */
+  }
+  
+  /* Style the navigation menu */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the side dashboard image */
+  #dashboard-icon {
+    width: 30px; /* Set the width of the side dashboard image */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    cursor: pointer; /* Add a cursor pointer to indicate it's clickable */
+  }
+  
+  /* Add some space between logo and navbar, and menu and navbar */
+  .logo {
+    margin-right: auto;
+  }
+  
+  .menu {
+    margin-left: auto;
+  }
+/* ... (Previous styles for header and navbar) */
+
+/* Set the width of the sidebar and main section */
+.sidebar {
+  width: 200px; /* Set the width of the sidebar */
+  padding: 20px;
+  background-color: #f2f2f2;
+  height: 600px;
+  float: left;
+  
+}
+.sidebar ul{
+  display: block;
+  padding: 10px;
+  margin: 20px;
+  
+}
+.sidebar li >a{
+  padding: 10px;
+ color: red;
+  
+}
+
+.main-section {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Some basic styles for headings and paragraphs */
+h2 {
+  margin-top: 0;
+  background-color: red;
+}
+
+p {
+  margin-bottom: 1rem;
+  background-color: red;
+}
+
+/* Card Grid Layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display 3 cards per row */
+  gap: 10px; /* Add some space between cards */
+}
+
+.card {
+  padding: 20px;
+  /* background-color:red; */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+   height: 200px;
+   /* width: 200px;  */
+
+}
+.card img{
+  object-fit: cover;
+  width :100%;
+  height: 100%;
+
+}
+
+
+
+
+
+  

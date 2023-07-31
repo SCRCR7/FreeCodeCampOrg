@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS style to resize the side dashboard image */
+        #dashboard-icon {
+            width: 30px; /* Set the desired width here */
+            height: auto; /* Automatically adjust the height to maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div id="navbar">
+        <div class="logo">
+            <img src="logo.png"/>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="menu">
+            <!-- Add the ID "dashboard-icon" to the side dashboard image -->
+            <img src="menu.png" class="menue" id="dashboard-icon"/>
+        </div>
+    </div>
+</header>
+<!-- end of header -->
+<div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <!-- Sidebar content goes here -->
+        <h2>Sidebar</h2>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+        <p>This is the sidebar content.</p>
+    </aside>
+
+    <!-- Main Section -->
+    <main class="main-section">
+        <!-- Main section content goes here -->
+        <h1>Main Section</h1>
+        <div class="card-grid">
+            <!-- 6 Cards -->
+            <div class="card"><img src="images/img/img-1.png"/></div>
+            <div class="card"><img src="images/img/img-3.jpg"/></div>
+            <div class="card"><img src="images/img/img-3.jpg"/></div>
+            <div class="card"><img src="images/img/img-4.jpg"/></div>
+            <div class="card"><img src="images/img/img-5.jpg"/></div>
+            <div class="card"><img src="images/img/img-5.jpg"/></div>
+        </div>
+    </main>
+</div>
+    
+</body>
+</html>

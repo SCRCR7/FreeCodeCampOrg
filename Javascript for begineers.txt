@@ -1,0 +1,30 @@
+OOP helps us model real-life objects. 
+It works best when the grouping of properties and data in an object makes logical sense - meaning, the properties and methods "belong together".
+
+To summarize this point, we can say that the Functional Programming paradigm works by keeping the data and functionality separate. It's counterpart, OOP, works by keeping the data and functionality grouped in meaningful objects.
+There are many more concepts and ideas in functional programming.
+
+Here are some of the most important ones:
+
+    First-class functions
+
+    Higher-order function
+
+    Pure functions and side-effects
+
+
+First-class functions
+
+It is often said that functions in JavaScript are “first-class citizens”. What does that mean?
+
+It means that a function in JavaScript is just another value that we can:
+
+    pass to other functions
+
+    save in a variable
+
+    return from other functions
+
+In other words, a function in JavaScript is just a value - from this vantage point, almost no different then a string or a number.
+
+For example, in JavaScript, it's perfectly normal to pass a function invocation to another function.
